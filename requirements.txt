@@ -1,5 +1,4 @@
 colorama~=0.4.5
 keyboard~=0.13.5
 PyYAML~=6.0
-PyAutoGUI~=0.9.53
 art~=5.7
