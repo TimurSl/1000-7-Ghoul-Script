@@ -68,7 +68,9 @@ def initConfig():
                 f"  Интервал между сообшениями (рекомендуем оставить 0.2, меньше Дота не тянет): {interval}\n"
                 f"  Клавиша деактивации: {close_hotkey}\n"
             )
-
+    else:
+        print("Конфиг не найден, создаю новый")
+        remadeConfig()
 def main():
     print(text2art("1000-7      SCRIPT", "standart"))
     print(" by zenisoft (c) 2021\n")
