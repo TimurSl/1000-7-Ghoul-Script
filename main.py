@@ -1,13 +1,9 @@
 import codecs
-import sys
 import time
 from pathlib import Path
-import colorama
 import keyboard
-from Tools.i18n.makelocalealias import pprint
 from art import text2art
 import yaml
-colorama.init()
 
 # Клавиша для активации
 hotkey = "9"
